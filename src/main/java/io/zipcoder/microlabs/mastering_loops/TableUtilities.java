@@ -9,9 +9,9 @@ public class TableUtilities {
 
     public static String getMultiplicationTable(int tableSize) {
         String table = "";
-        for (int i = 1; i <= tableSize; i++) {
+        for (int x = 1; x <= tableSize; x++) {
             for (int y = 1; y <= tableSize; y++) {
-                table += String.format("%3d |",i*y);
+                table += String.format("%3d |",x*y);
             }
             table += "\n" ;
 
